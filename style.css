@@ -10,7 +10,7 @@ body {
 
 }
 
-/* HEADER */
+
 header {
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ header {
 
 main {
   border: solid black;
-  min-height: 100%;
+  min-height: auto;
 }
 
 section {
@@ -95,6 +95,7 @@ th {
 .td-1 {
   text-align: justify;
 
+
 }
 
 .td-totalunit {
@@ -116,11 +117,13 @@ th {
   width: 100%;
   letter-spacing: 12px;
   font-size: medium;
+  padding: 10px;
 }
 
 .td-2 {
   background-color: white;
   text-align: justify;
+
 }
 
 .TOPHEADER2 {
@@ -130,30 +133,99 @@ th {
   text-align: center;
   border-bottom: solid black;
 
+
 }
 
 .tibolfees {
+  justify-content: space-evenly;
   margin-left: 20px;
   width: 600px;
-  border-color: black;
+  border-color: rgb(31, 29, 29);
   border-width: 2px;
   border-collapse: collapse;
   border-style: solid;
+  align-items: center;
 }
 
-/* .padding2 {
-  margin-left: 20px;
-  border: 2px solid black;
+/* rules part*/
+.rules {
   background-color: rgb(255, 255, 255);
-  padding-top: 0;
+  font-size: 20px;
+  width: 450px;
+  word-spacing: 10px;
+  float: right;
+  margin-right: 100px;
+}
+
+#reciept {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  position: absolute;
+  float: right;
+  right: 50px;
+  bottom: -500px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+#signature {
+  position: absolute;
+  bottom: -720px;
+  right: 300px;
+}
+
+/*TUTAlASIMENT tibol PART*/
+
+.total-row {
+  background-color: white;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: 600px;
+  border-color: rgb(31, 29, 29);
+  border-width: 2px;
+  border-collapse: collapse;
+  border-style: solid;
+  align-items: center;
+}
+
+.fees {
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: 600px;
+  
+  border-width: 2px;
+  border-color: black;
+  border-collapse: collapse;
+
+
+  border-collapse: collapse;
+  border-style: solid;
+  align-items: center;
+}
+
+.tth1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  word-spacing: 5.4px;
+}
+
+
+
+.footer{
+  border-width: 1px; /* Width of the border */
+  border-style: solid; /* Style of the border (solid line) */
+  border-color: black;
+  background-color: #C9CEF5;
+  padding-top: 0px;
   padding-right: 30px;
   padding-bottom: 0px;
-  padding-left: 18px;
-  position: left;
-  font-size: small;
-  width: 468px;
-  float: left;
-  line-height: 80%;
-  word-spacing: -2px;
-
-} */
+  padding-left: 26px;
+  margin-left: 0;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  bottom: -870.5px;
+}
